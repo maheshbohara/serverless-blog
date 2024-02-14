@@ -1,5 +1,3 @@
-import { errorHandler } from '../middlewares/error.middlewares.js';
-
 /**
  * Common Error class to throw an error from anywhere.
  *

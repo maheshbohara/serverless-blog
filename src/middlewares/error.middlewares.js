@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 
 import { ApiError } from '../utils/ApiError.js';
-import { asyncHandler } from '../utils/asyncHandler.js';
 
 /**
  * This middleware is responsible to catch the errors from any request handler wrapped inside the {@link asyncHandler}
