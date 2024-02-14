@@ -2,10 +2,9 @@
   "name": "serverless-blog",
   "version": "1.0.0",
   "description": "Serverless blog platform",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.mjs"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
@@ -17,7 +16,7 @@
   "author": "Mahesh Bohara",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.4",
@@ -25,11 +24,13 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.3.0",
     "mongoose": "^8.1.2",
-    "serverless-http": "^3.2.0"
+    "serverless-http": "^3.2.0",
+    "source-map-support": "^0.5.21"
   },
   "devDependencies": {
     "nodemon": "^3.0.3",
     "prettier": "^3.2.5",
+    "serverless-bundle": "^6.1.0",
     "serverless-dotenv-plugin": "^6.0.0",
     "serverless-offline": "^13.3.3"
   }
