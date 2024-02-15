@@ -18,8 +18,10 @@ This project is a Node.js application for managing a blog, built with the Server
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Set up your environment variables in a `.env` file.
-4. Run the application with `npm start`.
+3. Configure your environment variables within a `.env` file, with a sample provided in the `.env.sample` file.
+4. Globally install serverless `npm install -g serverless`.
+5. To locally start serverless `sls offline`.
+6. To deploy the project at any time, execute `sls deploy`. However, ensure you've set up the appropriate provider (AWS, Azure, etc.) before deploying.
 
 ## Usage
 
